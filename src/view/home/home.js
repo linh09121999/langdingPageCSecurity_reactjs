@@ -461,7 +461,7 @@ const home = () => {
                             <div className="contact-form" data-aos="fade-left">
                                 <h3>{contact.formTitle}</h3>
                                 <form className='grid gap-10'>
-                                    <div class="form-group">
+                                    <div className="form-group">
                                         <Box className="w-full" sx={sxFormControl} size="small">
                                             <TextField required className="w-full"
                                                 label={contact.formName}
@@ -471,7 +471,7 @@ const home = () => {
                                                 sx={sxText} />
                                         </Box>
                                     </div>
-                                    <div class="form-group">
+                                    <div className="form-group">
                                         <Box className="w-full" sx={sxFormControl} size="small">
                                             <TextField required className="w-full"
                                                 label={contact.formEmail}
@@ -481,7 +481,7 @@ const home = () => {
                                                 sx={sxText} />
                                         </Box>
                                     </div>
-                                    <div class="form-group">
+                                    <div className="form-group">
                                         <Box className="w-full" sx={sxFormControl} size="small">
                                             <TextField required className="w-full"
                                                 label={contact.formPhone}
@@ -491,7 +491,7 @@ const home = () => {
                                                 sx={sxText} />
                                         </Box>
                                     </div>
-                                    <div class="form-group">
+                                    <div className="form-group">
                                         <Box className="w-full" sx={sxFormControl} size="small">
                                             <TextField required className="w-full"
                                                 label={contact.formMessage}
@@ -504,7 +504,7 @@ const home = () => {
                                         </Box>
                                     </div>
 
-                                    <button type="submit" class="btn btn-white"><span>{contact.formsubmit}</span></button>
+                                    <button type="submit" className="btn btn-white"><span>{contact.formsubmit}</span></button>
                                 </form>
                             </div>
                         </div>
