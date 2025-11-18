@@ -1,10 +1,9 @@
-import React, { useState, useContext, useRef, useEffect } from 'react';
+import  {useEffect } from 'react';
 import '../../assets/css/index.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useGlobalContext } from "../../context/contextGlobal";
 import { styled, Stack, Badge, Avatar, Box, CardMedia, Rating, TextField } from '@mui/material'
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Marquee from "react-fast-marquee";
 

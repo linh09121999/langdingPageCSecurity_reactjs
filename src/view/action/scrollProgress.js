@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { LinearProgress, Box } from "@mui/material"
 
 const ScrollProgress = () => {

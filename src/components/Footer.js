@@ -7,7 +7,6 @@ const Footer = () => {
         footerContent,
         pages,
         scrollTo,
-        selectNav,
         setSelectNav,
         language,
         year
@@ -39,7 +38,7 @@ const Footer = () => {
                                 <h3>{product.name}</h3>
                                 <ul className="footer-links">
                                     {product.content.map((content, id) => (
-                                        <li><div className='footer-text'
+                                        <li key={id}><div className='footer-text'
                                             onClick={handleClickProduct}
                                         >{content}</div></li>
                                     ))}

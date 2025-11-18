@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useGlobalContext } from "../../context/contextGlobal";
 import '../../assets/css/index.css';
 
